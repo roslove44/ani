@@ -10,16 +10,17 @@ require_once('./elements/header.php') ?>
         <h2 data-aos="fade-up">Entreprise de Négoce INTERNATIONAL</h2>
         <blockquote data-aos="fade-up" data-aos-delay="100">
           <p>
-            Nous sommes <strong>Acheteur et Vendeur</strong> de <br>
-          <ul style="list-style: none;">
+            Nous sommes <strong>Acheteur et Vendeur</strong> de  <br>
+            matières premières en AFRIQUE et partout dans le monde.
+          <!-- <ul style="list-style: none;">
             <li><i class="bi bi-check-circle-fill"></i> <strong>Matières premières</strong></li>
             <li><i class="bi bi-check-circle-fill"></i> <strong>Produits Agricoles</strong></li>
             <li><i class="bi bi-check-circle-fill"></i> <strong>Produits Industriels</strong></li>
-          </ul>
+          </ul> -->
           </p>
         </blockquote>
         <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-          <a href="#about" class="btn-get-started">EN SAVOIR PLUS</a>
+          <a href="./services.php" class="btn-get-started">EN SAVOIR PLUS</a>
           <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
         </div>
       </div>
@@ -206,7 +207,6 @@ require_once('./elements/header.php') ?>
         <div class="col-lg-6 text-center">
           <h3>AFRICA NÉGOCE INTERNATIONAL</h3>
           <p>
-            QUE des expériences de voyages EXTRAORDINAIRES!
           </p>
           <a class="cta-btn" href="contact.php">Contact</a>
         </div>

@@ -24,6 +24,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  overflow-x: hidden;
 }
 
 a {
@@ -506,8 +507,9 @@ section {
   .hero:after {
     position: absolute;
     content: "";
-    width: 40%;
-    background: var(--color-secondary);
+    width: 45%;
+    /* background: var(--color-secondary); */
+    background-color:  #1b2f459a;
     top: 0;
     bottom: 0;
   }
@@ -974,6 +976,7 @@ section {
 .team .team-member .member-img {
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .team .team-member .social {

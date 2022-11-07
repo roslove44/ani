@@ -11,7 +11,7 @@ require_once('./elements/header.php')
 
       <h2>À Propos</h2>
       <ol>
-        <li><a href="index.php">Acceuil</a></li>
+        <li><a href="index.php">Accueil</a></li>
         <li>Nous Connaître</li>
       </ol>
 
@@ -24,7 +24,7 @@ require_once('./elements/header.php')
 
       <div class="row gy-4" data-aos="fade-up">
         <div class="col-lg-4">
-          <img src="assets/img/team/team-2.gif" class="rounded-circle w-75" alt="">
+          <img src="assets/img/team/ceo.gif" class="rounded-circle w-75" alt="">
         </div>
         <div class="col-lg-8">
           <div class="content ps-lg-5">
@@ -167,7 +167,7 @@ require_once('./elements/header.php')
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="team-member">
             <div class="member-img">
-              <img src="assets/img/team/team-2.gif" class="img-fluid w-75 rounded-circle" alt="">
+              <img src="assets/img/team/ceo.gif" class="img-fluid w-75 rounded-circle" alt="">
               <!-- <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -185,7 +185,7 @@ require_once('./elements/header.php')
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="team-member">
             <div class="member-img">
-              <img src="assets/img/team/team-1.gif" class="img-fluid w-75 rounded-circle" alt="">
+              <img src="assets/img/team/vice-ceo.gif" class="img-fluid w-75 rounded-circle" alt="">
               <!-- <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -203,7 +203,93 @@ require_once('./elements/header.php')
       </div>
 
     </div>
-  </section><!-- End Team Section -->
+
+    <!-- team afrique  -->
+    <div class="container" data-aos="fade-up">
+      <div class="section-header" style="margin-top: 20px ;">
+        <h2>TEAM AFRIQUE</h2>
+      </div>
+      <div class="row justify-content-around">
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/team/daj.gif" class="img-fluid w-75 rounded-circle" alt="">
+              <!-- <div class="social">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> -->
+            </div>
+            <div class="member-info">
+              <h4>Maodo Malick  FALL</h4>
+              <span>Directeur Affaires Juridiques (DAJ)</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/team/dcre.gif" class="img-fluid w-75 rounded-circle" alt="">
+              <!-- <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div> -->
+            </div>
+            <div class="member-info">
+              <h4>Mme. Brigitte EDIMO EHOWE</h4>
+              <span>Directeur Communication et Relation Extérieur</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/team/daf.gif" class="img-fluid w-75 rounded-circle" alt="">
+              <!-- <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div> -->
+            </div>
+            <div class="member-info">
+              <h4>Mr. Blond BISSIELOU</h4>
+              <span>Directeur Administratif et Financier ( DAF ) </span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/team/dcs.gif" class="img-fluid w-75 rounded-circle" alt="">
+              <!-- <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div> -->
+            </div>
+            <div class="member-info">
+              <h4>Mme. Stenie MBOMBE AKIMI</h4>
+              <span> Directeur Commercial et Stratégie</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+
+      </div>
+    </div>
+    <!-- end team afrique -->
+
+  </section>
+
+  <!-- End Team Section -->
 
 </main><!-- End #main -->
 

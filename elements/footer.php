@@ -8,52 +8,51 @@
                          <h3>AFRICA NEGOCE INTERNATIONAL</h3>
                      </a>
                      <p>
-                         Votre Entreprise de Négoce INTERNATIONAL.
-                         Nous sommes Acheteur et Vendeur de <br> <br>
-                     <ul>
+                         <!-- <ul>
                          <li>Maitières premières</li> <br>
                          <li>Produits Agricoles</li> <br>
                          <li>Produits Industriels</li> <br>
-                     </ul>
+                     </ul> -->
                      </p>
-                     <!-- <div class="social-links d-flex mt-3">
-                         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                     </div> -->
+
+                     <div class="social-links d-flex mt-3">
+                         <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+                         <a href="https://www.facebook.com/profile.php?id=100087304822786" class="facebook"  target="_blank"><i class="bi bi-facebook"></i></a>
+                         <a href="#" class="youtube"  target="_blank"><i class="bi bi-youtube" ></i></a>
+                         <a href="#" class="linkedin"  target="_blank"><i class="bi bi-linkedin"></i></a>
+                     </div>
                  </div>
 
-                 <div class="col-lg-2 col-6 footer-links">
-                     <h4>Liens Utiles</h4>
+                  <!-- <div class="col-lg-2 col-6 footer-links">
+                    <h4>Liens Utiles</h4>
                      <ul>
                          <li><i class="bi bi-dash"></i> <a href="#">Accueil</a></li>
                          <li><i class="bi bi-dash"></i><a href="about.php">À Propos</a></li>
                          <li><i class="bi bi-dash"></i><a href="services.php">Services</a></li>
                          <li><i class="bi bi-dash"></i><a href="contact.php">Contact</a></li>
-                     </ul>
-                 </div>
+                     </ul> 
+                 </div>-->
 
-                 <div class="col-lg-2 col-6 footer-links">
+                 <div class="col-lg-4 col-12 footer-links text-center text-md-start">
                      <h4>Nos Services</h4>
                      <ul>
-                         <li><i class="bi bi-dash"></i> <a href="#">Matières Premières</a></li>
-                         <li>
+                         <li><i class="bi bi-dash"></i> <a href="services.php">Négoce de Matières Premières</a></li>
+                         <!-- <li>
                              <i class="bi bi-dash"></i> <a href="#">Produits Agricoles</a>
                          </li>
                          <li>
                              <i class="bi bi-dash"></i> <a href="#">Produits Industriels</a>
-                         </li>
-                         <li><i class="bi bi-dash"></i> <a href="#">Evènements</a></li>
+                         </li> -->
+                         <li><i class="bi bi-dash"></i> <a href="services.php">Evènements</a></li>
                          <li>
-                             <i class="bi bi-dash"></i> <a href="#">Formations</a>
+                             <i class="bi bi-dash"></i> <a href="services.php">Formations</a>
                          </li>
                      </ul>
                  </div>
 
                  <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                      <h4>Nos Contacts</h4>
-                     <p>
+                     <!-- <p>
                          Headquarters Canada : 3709 rue Jérémie Laval(Québec) H7P5G4 Canada <br />
                          <strong>Téléphone:</strong> +1 (514) 224-7012 <br />
                          <strong>Email:</strong> contact@afriknegoce.com<br />
@@ -63,6 +62,16 @@
                          1er Arrondissement Bas de Gué-Gué, Avenue Henri MOUKILI, Libreville , GABON <br />
                          <strong>Téléphone:</strong> +241 62 11 02 71<br />
                          <strong>Email:</strong> contact@afriknegoce.com<br />
+                     </p> -->
+
+                     <p>
+                         Appelez nous directement au <br>
+                         <strong> +1 (514) 224-7012</strong> ou au <br>
+                         <strong>+241 62 11 02 71</strong> .<br />
+                     </p>
+                     <p>
+                         Pour vos commandes ou demande de devis, vous pouvez nous contacter via notre formulaire en ligne en cliquant
+                         <a href="contact.php">ici</a>.
                      </p>
                  </div>
              </div>
@@ -77,7 +86,7 @@
              </div>
              <div class="credits">
                  Designed by
-                 <a href="https://rostand-migan.com/">Rost Digital Services</a>
+                 <a href="https://rostand-migan.com/" target="_blank">Rost Digital Services</a>
              </div>
          </div>
      </div>

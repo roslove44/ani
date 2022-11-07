@@ -1,4 +1,9 @@
 <?php
+if($nav === 'Services') {
+  $active = 'active';
+}else {
+  $active = '';
+}
 function nav_item(string $lien, string $titre): string
 {
   global $nav;
@@ -66,40 +71,93 @@ HTML;
         <ul>
           <?= nav_item("index.php", "Acceuil") ?>
           <?= nav_item("about.php", "À Propos") ?>
-          <?= nav_item("#", "Services") ?>
-          <?= nav_item("contact.php", "Contact") ?>
+          
           <!-- <li><a href="index.php" class="active">Acceuil</a></li> -->
           <!-- <li><a href="about.php">À Propos</a></li> -->
           <!-- <li><a href="services.php">Services</a></li> -->
-          <!-- <li class="dropdown">
-              <a href="#"
-                ><span>Dropdown</span>
-                <i class="bi bi-chevron-down dropdown-indicator"></i
-              ></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Dropdown</span>
-                    <i class="bi bi-chevron-down dropdown-indicator"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li> -->
-          <!-- <li><a href="contact.php">Contact</a></li> -->
+          <li class="dropdown">
+            <a href="services.php" class="<?= $active?>"
+              ><span>Produits</span>
+              <i class="bi bi-chevron-down dropdown-indicator"></i
+            ></a>
+            <ul>
+              <li class="dropdown">
+                <a href="#"
+                  ><span>Produits Agricoles</span>
+                  <i class="bi bi-chevron-down dropdown-indicator"></i
+                ></a>
+                <ul>
+                  <li><a href="#">Café</a></li>
+                  <li><a href="#">Coton</a></li>
+                  <li><a href="#">Soja</a></li>
+                  <li><a href="#">Sésames</a></li>
+                  <li><a href="#">Noix de Cajou</a></li>
+                  <li><a href="#">Cacao</a></li>
+                  <li><a href="#">Miel</a></li>
+                  <li><a href="#">Piment</a></li>
+                  <li><a href="#">Maïs</a></li>
+                  <li><a href="#">Sucre</a></li>
+                  <li><a href="#">Blé</a></li>
+                  <li><a href="#">Ails</a></li>
+                  <li><a href="#">Arachides</a></li>
+                  <li><a href="#">Haricots</a></li>
+                  <li><a href="#">Fruits : Mangues</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"
+                  ><span>Métaux Précieux</span>
+                  <i class="bi bi-chevron-down dropdown-indicator"></i
+                ></a>
+                <ul>
+                  <li><a href="#">Or</a></li>
+                  <li><a href="#">Diamant </a></li>
+                  <li><a href="#">Argent</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"
+                  ><span>Energie</span>
+                  <i class="bi bi-chevron-down dropdown-indicator"></i
+                ></a>
+                <ul>
+                  <li><a href="#">Pétrole</a></li>
+                  <li><a href="#">Gaz</a></li>
+                  <li><a href="#">Charbon</a></li>
+                  <li><a href="#">Bois</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">Minérais</a></li>
+            </ul>
+          </li>
+
+          <?= nav_item("contact.php", "Contact") ?>
         </ul>
       </nav>
       <!-- .navbar -->
     </div>
   </header>
   <!-- End Header -->
+
+  <script>
+    let i= 0;
+
+    function change() {
+    var image = document.getElementById('hero')
+    if (i<12) {
+       i=i+1 
+       image.style.background ='url(./assets/img/product/product'+i+'.jpg) center'
+       image.style.backgroundSize = 'cover'
+
+    }
+    else{
+        i=0
+    }
+    }
+    setInterval(change, 3000);
+
+
+  </script>
