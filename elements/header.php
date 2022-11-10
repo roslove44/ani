@@ -1,7 +1,7 @@
 <?php
-if($nav === 'Services') {
+if ($nav === 'Services') {
   $active = 'active';
-}else {
+} else {
   $active = '';
 }
 function nav_item(string $lien, string $titre): string
@@ -71,21 +71,17 @@ HTML;
         <ul>
           <?= nav_item("index.php", "Acceuil") ?>
           <?= nav_item("about.php", "À Propos") ?>
-          
+
           <!-- <li><a href="index.php" class="active">Acceuil</a></li> -->
           <!-- <li><a href="about.php">À Propos</a></li> -->
           <!-- <li><a href="services.php">Services</a></li> -->
           <li class="dropdown">
-            <a href="services.php" class="<?= $active?>"
-              ><span>Produits</span>
-              <i class="bi bi-chevron-down dropdown-indicator"></i
-            ></a>
+            <a href="services.php" class="<?= $active ?>"><span>Produits</span>
+              <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li class="dropdown">
-                <a href="#"
-                  ><span>Produits Agricoles</span>
-                  <i class="bi bi-chevron-down dropdown-indicator"></i
-                ></a>
+                <a href="#"><span>Produits Agricoles</span>
+                  <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Café</a></li>
                   <li><a href="#">Coton</a></li>
@@ -106,10 +102,8 @@ HTML;
               </li>
 
               <li class="dropdown">
-                <a href="#"
-                  ><span>Métaux Précieux</span>
-                  <i class="bi bi-chevron-down dropdown-indicator"></i
-                ></a>
+                <a href="#"><span>Métaux Précieux</span>
+                  <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Or</a></li>
                   <li><a href="#">Diamant </a></li>
@@ -118,10 +112,8 @@ HTML;
               </li>
 
               <li class="dropdown">
-                <a href="#"
-                  ><span>Energie</span>
-                  <i class="bi bi-chevron-down dropdown-indicator"></i
-                ></a>
+                <a href="#"><span>Energie</span>
+                  <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Pétrole</a></li>
                   <li><a href="#">Gaz</a></li>
@@ -143,21 +135,18 @@ HTML;
   <!-- End Header -->
 
   <script>
-    let i= 0;
+    let i = 0;
 
     function change() {
-    var image = document.getElementById('hero')
-    if (i<12) {
-       i=i+1 
-       image.style.background ='url(./assets/img/product/product'+i+'.jpg) center'
-       image.style.backgroundSize = 'cover'
+      var image = document.getElementById('hero')
+      if (i < 12) {
+        i = i + 1
+        image.style.background = 'url(./assets/img/product/product' + i + '.jpg) center'
+        image.style.backgroundSize = 'cover'
 
-    }
-    else{
-        i=0
-    }
+      } else {
+        i = 0
+      }
     }
     setInterval(change, 3000);
-
-
   </script>
